@@ -1,0 +1,133 @@
+@charset 'utf 8';
+body{
+    margin: 0 auto;
+    font-family: "ヒラギノ角ゴ ProN", Meiryo, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.logo img{
+    width: 70px;
+    height: 80px;
+    position: absolute;
+    object-fit: fill;
+    right: 0%;
+}
+video{
+  width: 100%;
+  height: 1100px;
+  display: flex;
+  position: absolute;
+  z-index: -10;
+  background-size: cover;
+  transition: 1s opacity;
+  object-fit: fill;
+  
+}
+.mv-area img{
+    width: 100%;
+    object-fit: cover;
+}
+section {
+    color: #ffffff;
+}
+.campagin{
+    /* background-color:  #DEC200; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 60px 0;
+    margin-top: -8px;
+}
+.list{
+    background: #090909;
+    background: radial-gradient(at 26% 40%, #090909, transparent 70%), radial-gradient(at 93% 38%, #3e3f40, transparent 70%), radial-gradient(at 38% 93%, #12202a, transparent 70%), #090909;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 40px 0;
+}
+.form{
+    background-color: #3D5A6D;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.section-inner{
+    width: 790px;
+}
+.section-inner h2{
+    border-bottom: 4px solid #fff;
+    padding-bottom: 3px;
+}
+.section-inner p{
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+.list ol li{
+    padding: 10px;
+}
+.list table{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.list table tr td{
+    padding: 12px 20px;
+    color: black;
+    border: 1px solid #3D5A6D;
+}
+form dt{
+    margin-bottom: 20px;
+}
+form dd {
+   margin-bottom: 40px;
+   margin-left: 0;
+}
+input {
+    width: 100%;
+    border: none;
+    padding: .5em;
+    font-size: 1.1em;
+}
+input[type="radio"]{
+    width: 1em;
+    margin-left: 24px;
+    margin-right: 4px;
+}
+.form-submit{
+    margin-bottom: 10px;
+}
+button[type="submit"]{
+    background-color: #3EB6BD;
+    margin: 40px auto 0;
+    display: block;
+    width: 70%;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+button[type="submit"]:hover{
+    background-color: darkgray;
+}
+form dl dt{
+    font-weight: bold;
+}
+form dt::before{
+    content: "◆";
+    margin-right: 10px;
+}
+.form-img-area img{
+     width: 100%;
+    object-fit: cover;
+}
+footer {
+    color: #000000;
+}
+footer address{
+    text-align: center;
+    margin: 0 auto;
+}
